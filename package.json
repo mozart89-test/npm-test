@@ -1,0 +1,17 @@
+{
+  "name": "@mozart89-test/npm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --env.NODE_ENV=development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --env.NODE_ENV=production",
+    "dist": "webpack --env.NODE_ENV=production",
+    "dist-rc": "webpack --env.NODE_ENV=production",
+    "dist_codebuild": "webpack --env.NODE_ENV=production",
+    "upload-maps": "webpack --env.NODE_ENV=sentry"
+  },
+  "author": "mozart89-test",
+  "license": "ISC"
+}
